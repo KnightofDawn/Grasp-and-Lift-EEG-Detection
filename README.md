@@ -5,7 +5,6 @@ Data can be found at the projects's Kaggle.com page:
 https://www.kaggle.com/c/grasp-and-lift-eeg-detection
 
 README for Grasp and Lift EEG Detection
-(Apologies for very long README, but I have tried to cover my thought process and the evolution of code in it.) 
 
 Sagar Patel
 
