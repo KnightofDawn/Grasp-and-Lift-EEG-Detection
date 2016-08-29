@@ -68,12 +68,11 @@ DATA: Data for this project can be downloaded from Kaggle.com
       URL of competition: https://www.kaggle.com/c/grasp-and-lift-eeg-detection
       However, please note that you must be a kaggle member to be able to download the data
 
-Running code and Directory structure:
-
+- Running code and Directory structure:
 	The train and test directory should be kept inside directory named 'input'
 	The code should be kept inside directory named 'src'
 
-Problems faced:
+- Problems faced:
 	- Convnets can be easily trained on multicore processors, and hence GPUs with thousands of cores are optimal for such    		  applications. 
 	- Unfortunately Azure doesn't have GPU support so I had to parallelize my code in 16 cores available to me.
 	- So, it took 12.5 hours to run the final version of the code.
@@ -81,12 +80,12 @@ Problems faced:
 	- The HDInsight pricing is way too high. Which led to two of 150$/month subscriptions utilization. 
 	- Unavailability of further processing power prevented further tweaking/testing.
 	
-Results: AUC = 0.94039
-	 Position on Leaderboard = 49 (At the time of writing) 
+- Results: AUC = 0.94039
+	 - Position on Leaderboard = 49 (At the time of writing) 
 
-Special Thanks:
-	Alexandre Barachant (For providing link for CSP filters, irrespective of the fact that I didn't use it in final code)
-	Tim Hotchberg (For suggesting me the NEON library for convnets an the batch processing of data)
+- Special Thanks:
+	- Alexandre Barachant (For providing link for CSP filters, irrespective of the fact that I didn't use it in final code)
+	- Tim Hotchberg (For suggesting me the NEON library for convnets an the batch processing of data)
 
 Overall, this was a pretty fun project in which I get to test the signal processing and ML theoretical knowledge that I acquired over time.
 Also this was my first big Python project, so got to learn some caveats of the language. The immense amount of time gone into doing this seems well-invedted with my very first Kaggle project getting in Top 50 out of about 390 total Participants.
