@@ -9,10 +9,10 @@ README for Grasp and Lift EEG Detection
 Sagar Patel
 
 System Utilized:
-1) For normal (Non-hadoop) program run:
-	Microsoft Azure's A11 VM instance (16 Core, 112GB RAM)
-    	OS:          Ubuntu 14.04
-	Packages:	numpy,
+- For normal (Non-hadoop) program run:
+	- Microsoft Azure's A11 VM instance (16 Core, 112GB RAM)
+    	- OS:          Ubuntu 14.04
+	- Packages:	numpy,
 			scipy,
 			sklearn,
 			multiprocessing (for parallelization)
@@ -21,10 +21,10 @@ System Utilized:
 			Install NEON from source------> git clone https://github.com/NervanaSystems/neon.git
 							cd neon
 							make install
-2) For Hadoopable program:
-	Microsoft's HDInsight framework (1 master node, 2 data nodes)
-	OS: 	     Each node has Ubuntu 12.04
-	Packages:        Same as above
+- For Hadoopable program:
+	- Microsoft's HDInsight framework (1 master node, 2 data nodes)
+	- OS: 	     Each node has Ubuntu 12.04
+	- Packages:        Same as above
 
 
 Genaral Approach:
